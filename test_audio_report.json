@@ -1,0 +1,71 @@
+{
+  "video_id": "e4255bd2-9cea-4067-b89f-d40aa295e5e8",
+  "video_name": "235142e0-1b2f-4273-a1d5-553f5ea8d995.mp4",
+  "video_path": "uploads/235142e0-1b2f-4273-a1d5-553f5ea8d995.mp4",
+  "duration": 14.1,
+  "total_frames": 423,
+  "analyzed_frames": 3,
+  "analysis_time": 0,
+  "overall_quality_score": 66.35020750540274,
+  "frame_analyses": [
+    {
+      "clarity_score": 100.0,
+      "lighting_score": 68.87071397569446,
+      "face_detected": true,
+      "face_count": 3,
+      "watermark_detected": false,
+      "watermark_text": null,
+      "content_richness": 30.50837516784668,
+      "overall_score": 74.84477228588528,
+      "issues": [],
+      "frame_number": 0,
+      "timestamp": 0.0
+    },
+    {
+      "clarity_score": 100.0,
+      "lighting_score": 18.046230740017364,
+      "face_detected": true,
+      "face_count": 1,
+      "watermark_detected": false,
+      "watermark_text": null,
+      "content_richness": 25.326871871948242,
+      "overall_score": 60.8432756529914,
+      "issues": [
+        "光照问题",
+        "内容单调"
+      ],
+      "frame_number": 1,
+      "timestamp": 5.0
+    },
+    {
+      "clarity_score": 100.0,
+      "lighting_score": 0.0,
+      "face_detected": true,
+      "face_count": 1,
+      "watermark_detected": false,
+      "watermark_text": null,
+      "content_richness": 53.45029830932617,
+      "overall_score": 63.36257457733154,
+      "issues": [
+        "光照问题"
+      ],
+      "frame_number": 2,
+      "timestamp": 10.0
+    }
+  ],
+  "audio_analysis": {
+    "success": false,
+    "error": "音频处理器未初始化",
+    "transcription": {},
+    "audio_quality": {}
+  },
+  "summary": {
+    "avg_clarity": 100.0,
+    "avg_lighting": 28.972314905237273,
+    "face_detection_rate": 1.0,
+    "watermark_detection_rate": 0.0,
+    "avg_content_richness": 36.428515116373696,
+    "audio_quality_score": 0,
+    "has_audio_transcription": false
+  }
+}

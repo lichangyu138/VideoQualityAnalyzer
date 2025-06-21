@@ -1,0 +1,1089 @@
+2025-06-21 11:41:34,124 - app.api.routes - INFO - 视频上传成功: uploads/a321b300-1b3b-4ccc-9068-d8c8b522376c.mp4
+2025-06-21 11:41:34,127 - app.api.routes - INFO - 开始分析任务: 14efac42-8aef-4415-bc65-8085d63a6346
+2025-06-21 11:41:34,128 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 11:41:39,040 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 11:42:09,356 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 11:42:09,356 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-06-21 11:42:09,359 - easyocr.easyocr - WARNING - Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+2025-06-21 11:42:41,855 - app.services.image_analyzer - ERROR - 模型加载失败: File name in directory 'craft_mlt_25k.pth' and header b'zh_sim_g2.pth' differ.
+2025-06-21 11:42:41,855 - app.api.routes - ERROR - 分析任务失败 14efac42-8aef-4415-bc65-8085d63a6346: File name in directory 'craft_mlt_25k.pth' and header b'zh_sim_g2.pth' differ.
+2025-06-21 11:45:19,056 - app.api.routes - INFO - 视频上传成功: uploads/313c6b81-f2c4-4fa7-b58d-35c57f0b821b.mp4
+2025-06-21 11:45:19,059 - app.api.routes - INFO - 开始分析任务: 3a339c2e-40a2-4893-a5bc-86954a2b43c0
+2025-06-21 11:45:19,060 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 11:45:19,086 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 11:45:23,960 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 11:45:23,961 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-06-21 11:45:24,074 - easyocr.easyocr - WARNING - Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+2025-06-21 11:45:30,402 - easyocr.easyocr - INFO - Download complete.
+2025-06-21 11:45:31,296 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 11:45:31,311 - app.services.video_processor - INFO - 视频信息: 423帧, 30.0fps, 14.10秒
+2025-06-21 11:45:31,313 - app.services.video_processor - INFO - 将提取 3 帧
+2025-06-21 11:45:31,403 - app.services.video_processor - INFO - 成功提取 3 帧
+2025-06-21 11:45:31,403 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 11:45:32,587 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 74.8
+2025-06-21 11:45:32,587 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 11:45:33,475 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 60.8
+2025-06-21 11:45:33,475 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 11:45:34,425 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 63.4
+2025-06-21 11:45:34,425 - app.utils.report_generator - INFO - JSON结果已保存: outputs/3a339c2e-40a2-4893-a5bc-86954a2b43c0_result.json
+2025-06-21 11:45:34,429 - app.utils.report_generator - INFO - PDF报告已生成: outputs/3a339c2e-40a2-4893-a5bc-86954a2b43c0_report.pdf
+2025-06-21 11:45:34,574 - app.utils.report_generator - INFO - Excel报告已生成: outputs/3a339c2e-40a2-4893-a5bc-86954a2b43c0_report.xlsx
+2025-06-21 11:45:34,575 - app.api.routes - INFO - 分析任务完成: 3a339c2e-40a2-4893-a5bc-86954a2b43c0
+2025-06-21 11:48:27,268 - app.api.routes - INFO - 视频上传成功: uploads/9fc700e2-4474-454e-bfd2-fea154ad6233.mp4
+2025-06-21 11:48:27,271 - app.api.routes - INFO - 开始分析任务: 997b1c53-b934-480e-960f-047551e0f1d7
+2025-06-21 11:48:27,272 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 11:48:27,331 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 11:48:32,114 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 11:48:32,114 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 11:48:33,615 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 11:48:33,626 - app.services.video_processor - INFO - 视频信息: 423帧, 30.0fps, 14.10秒
+2025-06-21 11:48:33,626 - app.services.video_processor - INFO - 将提取 3 帧
+2025-06-21 11:48:33,711 - app.services.video_processor - INFO - 成功提取 3 帧
+2025-06-21 11:48:33,711 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 11:48:37,507 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 74.8
+2025-06-21 11:48:37,507 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 11:48:41,148 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 60.8
+2025-06-21 11:48:41,148 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 11:48:44,709 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 63.4
+2025-06-21 11:48:44,710 - app.utils.report_generator - INFO - JSON结果已保存: outputs/997b1c53-b934-480e-960f-047551e0f1d7_result.json
+2025-06-21 11:48:44,715 - app.utils.report_generator - INFO - PDF报告已生成: outputs/997b1c53-b934-480e-960f-047551e0f1d7_report.pdf
+2025-06-21 11:48:44,846 - app.utils.report_generator - INFO - Excel报告已生成: outputs/997b1c53-b934-480e-960f-047551e0f1d7_report.xlsx
+2025-06-21 11:48:44,847 - app.api.routes - INFO - 分析任务完成: 997b1c53-b934-480e-960f-047551e0f1d7
+2025-06-21 11:54:35,706 - app.api.routes - INFO - 视频上传成功: uploads/235142e0-1b2f-4273-a1d5-553f5ea8d995.mp4
+2025-06-21 11:54:37,735 - app.api.routes - INFO - 开始分析任务: e4255bd2-9cea-4067-b89f-d40aa295e5e8
+2025-06-21 11:54:37,735 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 11:54:37,826 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 11:54:42,433 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 11:54:42,433 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 11:54:44,766 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 11:54:44,792 - app.services.video_processor - INFO - 视频信息: 423帧, 30.0fps, 14.10秒
+2025-06-21 11:54:44,793 - app.services.video_processor - INFO - 将提取 3 帧
+2025-06-21 11:54:44,949 - app.services.video_processor - INFO - 成功提取 3 帧
+2025-06-21 11:54:44,949 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 11:54:53,931 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 74.8
+2025-06-21 11:54:53,931 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 11:54:57,559 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 60.8
+2025-06-21 11:54:57,560 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 11:55:01,171 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 63.4
+2025-06-21 11:55:02,539 - app.services.video_processor - WARNING - 音频处理器初始化失败: No module named 'moviepy.editor'
+2025-06-21 11:55:02,539 - app.utils.report_generator - INFO - JSON结果已保存: outputs/e4255bd2-9cea-4067-b89f-d40aa295e5e8_result.json
+2025-06-21 11:55:02,544 - app.utils.report_generator - INFO - PDF报告已生成: outputs/e4255bd2-9cea-4067-b89f-d40aa295e5e8_report.pdf
+2025-06-21 11:55:02,692 - app.utils.report_generator - INFO - Excel报告已生成: outputs/e4255bd2-9cea-4067-b89f-d40aa295e5e8_report.xlsx
+2025-06-21 11:55:02,693 - app.api.routes - INFO - 分析任务完成: e4255bd2-9cea-4067-b89f-d40aa295e5e8
+2025-06-21 11:55:49,724 - app.api.routes - INFO - 视频上传成功: uploads/4f47cb43-364d-4d68-a063-405430300e10.mp4
+2025-06-21 11:55:49,727 - app.api.routes - INFO - 开始分析任务: 57137607-7f8b-43b2-a7ca-f9d9993883a0
+2025-06-21 11:55:49,729 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 11:55:49,788 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 11:55:53,982 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 11:55:53,982 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 11:55:55,010 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 11:55:55,032 - app.services.video_processor - INFO - 视频信息: 423帧, 30.0fps, 14.10秒
+2025-06-21 11:55:55,032 - app.services.video_processor - INFO - 将提取 3 帧
+2025-06-21 11:55:55,140 - app.services.video_processor - INFO - 成功提取 3 帧
+2025-06-21 11:55:55,141 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 11:55:59,061 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 74.8
+2025-06-21 11:55:59,061 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 11:56:02,756 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 60.8
+2025-06-21 11:56:02,757 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 11:56:06,367 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 63.4
+2025-06-21 11:56:06,737 - app.services.video_processor - WARNING - 音频处理器初始化失败: No module named 'moviepy.editor'
+2025-06-21 11:56:06,738 - app.utils.report_generator - INFO - JSON结果已保存: outputs/57137607-7f8b-43b2-a7ca-f9d9993883a0_result.json
+2025-06-21 11:56:06,744 - app.utils.report_generator - INFO - PDF报告已生成: outputs/57137607-7f8b-43b2-a7ca-f9d9993883a0_report.pdf
+2025-06-21 11:56:06,870 - app.utils.report_generator - INFO - Excel报告已生成: outputs/57137607-7f8b-43b2-a7ca-f9d9993883a0_report.xlsx
+2025-06-21 11:56:06,870 - app.api.routes - INFO - 分析任务完成: 57137607-7f8b-43b2-a7ca-f9d9993883a0
+2025-06-21 11:56:40,212 - app.api.routes - INFO - 视频上传成功: uploads/cb137faa-ed2b-4e5b-b36a-0b23c62e1d51.mp4
+2025-06-21 11:56:40,215 - app.api.routes - INFO - 开始分析任务: d34dbdbd-5d8d-46a5-a31d-5ff09ff7256b
+2025-06-21 11:56:40,216 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 11:56:40,269 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 11:56:44,335 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 11:56:44,335 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 11:56:46,366 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 11:56:46,382 - app.services.video_processor - INFO - 视频信息: 423帧, 30.0fps, 14.10秒
+2025-06-21 11:56:46,397 - app.services.video_processor - INFO - 将提取 3 帧
+2025-06-21 11:56:46,524 - app.services.video_processor - INFO - 成功提取 3 帧
+2025-06-21 11:56:46,524 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 11:56:51,364 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 74.8
+2025-06-21 11:56:51,364 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 11:56:55,058 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 60.8
+2025-06-21 11:56:55,058 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 11:56:58,698 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 63.4
+2025-06-21 11:56:58,699 - app.services.video_processor - WARNING - 音频处理器初始化失败: No module named 'moviepy.editor'
+2025-06-21 11:56:58,700 - app.utils.report_generator - INFO - JSON结果已保存: outputs/d34dbdbd-5d8d-46a5-a31d-5ff09ff7256b_result.json
+2025-06-21 11:56:58,704 - app.utils.report_generator - INFO - PDF报告已生成: outputs/d34dbdbd-5d8d-46a5-a31d-5ff09ff7256b_report.pdf
+2025-06-21 11:56:58,728 - app.utils.report_generator - INFO - Excel报告已生成: outputs/d34dbdbd-5d8d-46a5-a31d-5ff09ff7256b_report.xlsx
+2025-06-21 11:56:58,729 - app.api.routes - INFO - 分析任务完成: d34dbdbd-5d8d-46a5-a31d-5ff09ff7256b
+2025-06-21 11:58:16,759 - app.api.routes - INFO - 开始分析任务: d478f47d-4144-4fd1-981e-3ca131ed10ee
+2025-06-21 11:58:16,760 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 11:58:17,038 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 11:58:21,106 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 11:58:21,107 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 11:58:23,188 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 11:58:29,897 - app.services.video_processor - INFO - 视频下载完成: downloads\（电脑挂机赚钱）TARI新币挖矿， 24小时挖1000多个，一天赚100多！.mp4
+2025-06-21 11:58:29,915 - app.services.video_processor - INFO - 视频信息: 8300帧, 30.0fps, 276.67秒
+2025-06-21 11:58:29,915 - app.services.video_processor - INFO - 将提取 56 帧
+2025-06-21 11:58:30,389 - app.services.video_processor - INFO - 成功提取 56 帧
+2025-06-21 11:58:30,390 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 11:58:31,893 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:58:32,166 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 98.2
+2025-06-21 11:58:32,166 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 11:58:33,614 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:58:33,795 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 85.6
+2025-06-21 11:58:33,795 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 11:58:35,261 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:58:35,414 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 86.3
+2025-06-21 11:58:35,414 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0003_15.00s.jpg
+2025-06-21 11:58:36,826 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:58:37,005 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 52.0
+2025-06-21 11:58:37,005 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0004_20.00s.jpg
+2025-06-21 11:58:38,486 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:58:38,640 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 50.9
+2025-06-21 11:58:38,640 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0005_25.00s.jpg
+2025-06-21 11:58:40,127 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:58:40,281 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 68.5
+2025-06-21 11:58:40,281 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0006_30.00s.jpg
+2025-06-21 11:58:41,718 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:58:41,871 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 58.7
+2025-06-21 11:58:41,871 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0007_35.00s.jpg
+2025-06-21 11:58:43,438 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:58:43,593 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 58.7
+2025-06-21 11:58:43,593 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0008_40.00s.jpg
+2025-06-21 11:58:45,026 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:58:45,178 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 61.6
+2025-06-21 11:58:45,178 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0009_45.00s.jpg
+2025-06-21 11:58:46,629 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:58:46,782 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 59.9
+2025-06-21 11:58:46,783 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0010_50.00s.jpg
+2025-06-21 11:58:48,204 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:58:48,358 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 57.4
+2025-06-21 11:58:48,359 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0011_55.00s.jpg
+2025-06-21 11:58:49,792 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:58:49,943 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 82.6
+2025-06-21 11:58:49,943 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0012_60.00s.jpg
+2025-06-21 11:58:51,405 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:58:51,560 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 81.7
+2025-06-21 11:58:51,560 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0013_65.00s.jpg
+2025-06-21 11:58:53,146 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 83.9
+2025-06-21 11:58:53,146 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0014_70.00s.jpg
+2025-06-21 11:58:54,730 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 66.1
+2025-06-21 11:58:54,731 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0015_75.00s.jpg
+2025-06-21 11:58:56,291 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 64.7
+2025-06-21 11:58:56,293 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0016_80.00s.jpg
+2025-06-21 11:58:57,860 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 77.8
+2025-06-21 11:58:57,860 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0017_85.00s.jpg
+2025-06-21 11:58:59,269 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:58:59,431 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 75.0
+2025-06-21 11:58:59,431 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0018_90.00s.jpg
+2025-06-21 11:59:00,907 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:01,058 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 76.2
+2025-06-21 11:59:01,058 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0019_95.00s.jpg
+2025-06-21 11:59:02,476 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:02,629 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 68.8
+2025-06-21 11:59:02,629 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0020_100.00s.jpg
+2025-06-21 11:59:04,039 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:04,191 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 70.0
+2025-06-21 11:59:04,191 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0021_105.00s.jpg
+2025-06-21 11:59:05,610 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:05,766 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 79.9
+2025-06-21 11:59:05,766 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0022_110.00s.jpg
+2025-06-21 11:59:07,174 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:07,326 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 76.4
+2025-06-21 11:59:07,327 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0023_115.00s.jpg
+2025-06-21 11:59:08,744 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:08,899 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 80.5
+2025-06-21 11:59:08,899 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0024_120.00s.jpg
+2025-06-21 11:59:10,309 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:10,462 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 63.7
+2025-06-21 11:59:10,463 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0025_125.00s.jpg
+2025-06-21 11:59:11,900 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:12,054 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 82.3
+2025-06-21 11:59:12,055 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0026_130.00s.jpg
+2025-06-21 11:59:13,482 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:13,637 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 80.8
+2025-06-21 11:59:13,637 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0027_135.00s.jpg
+2025-06-21 11:59:15,043 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:15,196 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 78.0
+2025-06-21 11:59:15,196 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0028_140.00s.jpg
+2025-06-21 11:59:16,646 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:16,800 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 79.3
+2025-06-21 11:59:16,801 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0029_145.00s.jpg
+2025-06-21 11:59:18,224 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:18,375 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 79.2
+2025-06-21 11:59:18,375 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0030_150.00s.jpg
+2025-06-21 11:59:19,791 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:19,945 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 71.4
+2025-06-21 11:59:19,945 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0031_155.00s.jpg
+2025-06-21 11:59:21,356 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:21,507 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 80.4
+2025-06-21 11:59:21,507 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0032_160.00s.jpg
+2025-06-21 11:59:22,933 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:23,088 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 88.6
+2025-06-21 11:59:23,088 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0033_165.00s.jpg
+2025-06-21 11:59:24,601 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:24,753 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 87.7
+2025-06-21 11:59:24,753 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0034_170.00s.jpg
+2025-06-21 11:59:26,158 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:26,314 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 88.9
+2025-06-21 11:59:26,314 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0035_175.00s.jpg
+2025-06-21 11:59:27,777 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:27,929 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 90.8
+2025-06-21 11:59:27,930 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0036_180.00s.jpg
+2025-06-21 11:59:29,351 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:29,507 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 91.4
+2025-06-21 11:59:29,507 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0037_185.00s.jpg
+2025-06-21 11:59:30,959 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:31,114 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 75.0
+2025-06-21 11:59:31,115 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0038_190.00s.jpg
+2025-06-21 11:59:32,536 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:32,689 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 91.4
+2025-06-21 11:59:32,689 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0039_195.00s.jpg
+2025-06-21 11:59:34,216 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:34,373 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 90.6
+2025-06-21 11:59:34,373 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0040_200.00s.jpg
+2025-06-21 11:59:35,787 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:35,938 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 89.7
+2025-06-21 11:59:35,938 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0041_205.00s.jpg
+2025-06-21 11:59:37,358 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:37,513 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 83.9
+2025-06-21 11:59:37,513 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0042_210.00s.jpg
+2025-06-21 11:59:38,916 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:39,068 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 83.0
+2025-06-21 11:59:39,068 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0043_215.00s.jpg
+2025-06-21 11:59:40,575 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:40,730 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 83.1
+2025-06-21 11:59:40,730 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0044_220.00s.jpg
+2025-06-21 11:59:42,238 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:42,397 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 86.4
+2025-06-21 11:59:42,397 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0045_225.00s.jpg
+2025-06-21 11:59:43,903 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:44,084 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 89.3
+2025-06-21 11:59:44,085 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0046_230.00s.jpg
+2025-06-21 11:59:45,526 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:45,681 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 88.8
+2025-06-21 11:59:45,681 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0047_235.00s.jpg
+2025-06-21 11:59:47,143 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:47,293 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 60.1
+2025-06-21 11:59:47,293 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0048_240.00s.jpg
+2025-06-21 11:59:48,717 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:48,877 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 56.9
+2025-06-21 11:59:48,878 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0049_245.00s.jpg
+2025-06-21 11:59:50,307 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:50,469 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 88.8
+2025-06-21 11:59:50,469 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0050_250.00s.jpg
+2025-06-21 11:59:51,993 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:52,159 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 89.4
+2025-06-21 11:59:52,159 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0051_255.00s.jpg
+2025-06-21 11:59:53,630 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:53,828 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 87.2
+2025-06-21 11:59:53,829 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0052_260.00s.jpg
+2025-06-21 11:59:55,267 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:55,419 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 80.7
+2025-06-21 11:59:55,420 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0053_265.00s.jpg
+2025-06-21 11:59:56,840 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:56,998 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 86.6
+2025-06-21 11:59:56,998 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0054_270.00s.jpg
+2025-06-21 11:59:58,414 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 11:59:58,570 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 89.4
+2025-06-21 11:59:58,571 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0055_275.00s.jpg
+2025-06-21 12:00:00,022 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 12:00:00,178 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 90.3
+2025-06-21 12:00:00,179 - app.services.video_processor - WARNING - 音频处理器初始化失败: No module named 'moviepy.editor'
+2025-06-21 12:00:00,180 - app.utils.report_generator - INFO - JSON结果已保存: outputs/d478f47d-4144-4fd1-981e-3ca131ed10ee_result.json
+2025-06-21 12:00:00,186 - app.utils.report_generator - INFO - PDF报告已生成: outputs/d478f47d-4144-4fd1-981e-3ca131ed10ee_report.pdf
+2025-06-21 12:00:00,230 - app.utils.report_generator - INFO - Excel报告已生成: outputs/d478f47d-4144-4fd1-981e-3ca131ed10ee_report.xlsx
+2025-06-21 12:00:00,236 - app.api.routes - INFO - 分析任务完成: d478f47d-4144-4fd1-981e-3ca131ed10ee
+2025-06-21 12:00:57,366 - app.api.routes - INFO - 视频上传成功: uploads/b52c3582-4732-4ce7-b93e-c068ab63d81d.mp4
+2025-06-21 12:00:57,369 - app.api.routes - INFO - 开始分析任务: 62f8ec3a-d0f8-4bc3-9cfa-65c92ced2273
+2025-06-21 12:00:57,369 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 12:00:57,395 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 12:01:01,591 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 12:01:01,593 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 12:01:02,628 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 12:01:02,641 - app.services.video_processor - INFO - 视频信息: 423帧, 30.0fps, 14.10秒
+2025-06-21 12:01:02,641 - app.services.video_processor - INFO - 将提取 3 帧
+2025-06-21 12:01:02,731 - app.services.video_processor - INFO - 成功提取 3 帧
+2025-06-21 12:01:02,731 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 12:01:06,645 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 74.8
+2025-06-21 12:01:06,645 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 12:01:10,312 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 60.8
+2025-06-21 12:01:10,312 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 12:01:13,952 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 63.4
+2025-06-21 12:01:13,954 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 12:01:13,955 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 12:01:13,955 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/b52c3582-4732-4ce7-b93e-c068ab63d81d.mp4
+2025-06-21 12:01:13,955 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/b52c3582-4732-4ce7-b93e-c068ab63d81d.mp4
+2025-06-21 12:01:14,149 - app.services.audio_processor - WARNING - moviepy未安装，无法提取音频
+2025-06-21 12:01:14,150 - app.utils.report_generator - INFO - JSON结果已保存: outputs/62f8ec3a-d0f8-4bc3-9cfa-65c92ced2273_result.json
+2025-06-21 12:01:14,155 - app.utils.report_generator - INFO - PDF报告已生成: outputs/62f8ec3a-d0f8-4bc3-9cfa-65c92ced2273_report.pdf
+2025-06-21 12:01:14,292 - app.utils.report_generator - INFO - Excel报告已生成: outputs/62f8ec3a-d0f8-4bc3-9cfa-65c92ced2273_report.xlsx
+2025-06-21 12:01:14,293 - app.api.routes - INFO - 分析任务完成: 62f8ec3a-d0f8-4bc3-9cfa-65c92ced2273
+2025-06-21 12:02:25,771 - app.api.routes - INFO - 视频上传成功: uploads/d56b470b-6560-43d8-90c1-6034b7055a75.mp4
+2025-06-21 12:02:25,775 - app.api.routes - INFO - 开始分析任务: 67818868-3d83-4aea-a85b-73812c0f8ad3
+2025-06-21 12:02:25,775 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 12:02:25,831 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 12:02:30,060 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 12:02:30,061 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 12:02:32,083 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 12:02:32,097 - app.services.video_processor - INFO - 视频信息: 423帧, 30.0fps, 14.10秒
+2025-06-21 12:02:32,097 - app.services.video_processor - INFO - 将提取 3 帧
+2025-06-21 12:02:32,186 - app.services.video_processor - INFO - 成功提取 3 帧
+2025-06-21 12:02:32,186 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 12:02:36,031 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 74.8
+2025-06-21 12:02:36,031 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 12:02:39,709 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 60.8
+2025-06-21 12:02:39,709 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 12:02:43,359 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 63.4
+2025-06-21 12:02:43,363 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 12:02:43,363 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 12:02:43,363 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/d56b470b-6560-43d8-90c1-6034b7055a75.mp4
+2025-06-21 12:02:43,364 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/d56b470b-6560-43d8-90c1-6034b7055a75.mp4
+2025-06-21 12:02:43,626 - app.services.audio_processor - WARNING - moviepy导入失败: No module named 'moviepy.editor'
+2025-06-21 12:02:43,627 - app.utils.report_generator - INFO - JSON结果已保存: outputs/67818868-3d83-4aea-a85b-73812c0f8ad3_result.json
+2025-06-21 12:02:43,633 - app.utils.report_generator - INFO - PDF报告已生成: outputs/67818868-3d83-4aea-a85b-73812c0f8ad3_report.pdf
+2025-06-21 12:02:43,766 - app.utils.report_generator - INFO - Excel报告已生成: outputs/67818868-3d83-4aea-a85b-73812c0f8ad3_report.xlsx
+2025-06-21 12:02:43,767 - app.api.routes - INFO - 分析任务完成: 67818868-3d83-4aea-a85b-73812c0f8ad3
+2025-06-21 12:04:17,033 - app.api.routes - INFO - 视频上传成功: uploads/96ea09e9-7324-43d3-b453-1978ce788445.mp4
+2025-06-21 12:04:17,036 - app.api.routes - INFO - 开始分析任务: ea47914e-68bf-4b47-8ee9-f995f8764bc5
+2025-06-21 12:04:17,038 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 12:04:17,087 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 12:04:21,716 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 12:04:21,717 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 12:04:23,473 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 12:04:23,480 - app.services.video_processor - INFO - 视频信息: 423帧, 30.0fps, 14.10秒
+2025-06-21 12:04:23,480 - app.services.video_processor - INFO - 将提取 3 帧
+2025-06-21 12:04:23,570 - app.services.video_processor - INFO - 成功提取 3 帧
+2025-06-21 12:04:23,570 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 12:04:27,371 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 74.8
+2025-06-21 12:04:27,371 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 12:04:31,036 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 60.8
+2025-06-21 12:04:31,036 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 12:04:34,593 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 63.4
+2025-06-21 12:04:34,594 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 12:04:34,594 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 12:04:34,594 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/96ea09e9-7324-43d3-b453-1978ce788445.mp4
+2025-06-21 12:04:34,594 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/96ea09e9-7324-43d3-b453-1978ce788445.mp4
+2025-06-21 12:04:35,393 - app.services.audio_processor - INFO - 音频提取完成: C:\Users\admin\AppData\Local\Temp\tmpbwnh6_4f.wav
+2025-06-21 12:04:35,393 - app.services.audio_processor - INFO - 开始Whisper语音识别: C:\Users\admin\AppData\Local\Temp\tmpbwnh6_4f.wav
+2025-06-21 12:04:41,740 - app.services.audio_processor - INFO - Whisper模型加载完成
+2025-06-21 12:04:41,741 - py.warnings - WARNING - C:\ai\质量\venv\Lib\site-packages\whisper\transcribe.py:126: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+
+2025-06-21 12:04:49,912 - app.services.audio_processor - INFO - Whisper识别完成，文本长度: 9
+2025-06-21 12:04:49,912 - app.services.audio_processor - INFO - 开始分析音频质量: C:\Users\admin\AppData\Local\Temp\tmpbwnh6_4f.wav
+2025-06-21 12:04:50,065 - app.services.audio_processor - INFO - 音频质量分析完成，评分: 100
+2025-06-21 12:04:50,070 - app.services.audio_processor - INFO - 临时音频文件已清理
+2025-06-21 12:04:50,070 - app.services.audio_processor - INFO - 视频音频处理完成
+2025-06-21 12:04:50,070 - app.utils.report_generator - INFO - JSON结果已保存: outputs/ea47914e-68bf-4b47-8ee9-f995f8764bc5_result.json
+2025-06-21 12:04:50,077 - app.utils.report_generator - INFO - PDF报告已生成: outputs/ea47914e-68bf-4b47-8ee9-f995f8764bc5_report.pdf
+2025-06-21 12:04:50,264 - app.utils.report_generator - INFO - Excel报告已生成: outputs/ea47914e-68bf-4b47-8ee9-f995f8764bc5_report.xlsx
+2025-06-21 12:04:50,265 - app.api.routes - INFO - 分析任务完成: ea47914e-68bf-4b47-8ee9-f995f8764bc5
+2025-06-21 12:07:23,569 - app.api.routes - INFO - 视频上传成功: uploads/be7a2109-54ab-42fe-8654-f53d00e8a0ac.mp4
+2025-06-21 12:07:23,574 - app.api.routes - INFO - 开始分析任务: f72268a4-c93c-4aa1-8fef-e74475dc844d
+2025-06-21 12:07:23,574 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 12:07:23,627 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 12:07:28,115 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 12:07:28,116 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 12:07:30,291 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 12:07:30,307 - app.services.video_processor - INFO - 视频信息: 423帧, 30.0fps, 14.10秒
+2025-06-21 12:07:30,307 - app.services.video_processor - INFO - 将提取 3 帧
+2025-06-21 12:07:30,467 - app.services.video_processor - INFO - 成功提取 3 帧
+2025-06-21 12:07:30,467 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 12:07:36,384 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 74.8
+2025-06-21 12:07:36,384 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 12:07:39,978 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 60.8
+2025-06-21 12:07:39,978 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 12:07:43,668 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 63.4
+2025-06-21 12:07:43,669 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 12:07:43,669 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 12:07:43,669 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/be7a2109-54ab-42fe-8654-f53d00e8a0ac.mp4
+2025-06-21 12:07:43,669 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/be7a2109-54ab-42fe-8654-f53d00e8a0ac.mp4
+2025-06-21 12:07:44,522 - app.services.audio_processor - INFO - 音频提取完成: C:\Users\admin\AppData\Local\Temp\tmpk6w38svo.wav
+2025-06-21 12:07:44,523 - app.services.audio_processor - INFO - 开始Whisper语音识别: C:\Users\admin\AppData\Local\Temp\tmpk6w38svo.wav
+2025-06-21 12:07:45,147 - app.services.audio_processor - INFO - Whisper模型加载完成
+2025-06-21 12:07:45,147 - py.warnings - WARNING - C:\ai\质量\venv\Lib\site-packages\whisper\transcribe.py:126: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+
+2025-06-21 12:07:55,414 - app.services.audio_processor - INFO - Whisper识别完成，文本长度: 84
+2025-06-21 12:07:55,414 - app.services.audio_processor - INFO - 开始分析音频质量: C:\Users\admin\AppData\Local\Temp\tmpk6w38svo.wav
+2025-06-21 12:07:55,562 - app.services.audio_processor - INFO - 音频质量分析完成，评分: 100
+2025-06-21 12:07:55,570 - app.services.audio_processor - INFO - 临时音频文件已清理
+2025-06-21 12:07:55,570 - app.services.audio_processor - INFO - 视频音频处理完成
+2025-06-21 12:07:55,570 - app.utils.report_generator - INFO - JSON结果已保存: outputs/f72268a4-c93c-4aa1-8fef-e74475dc844d_result.json
+2025-06-21 12:07:55,577 - app.utils.report_generator - INFO - PDF报告已生成: outputs/f72268a4-c93c-4aa1-8fef-e74475dc844d_report.pdf
+2025-06-21 12:07:55,728 - app.utils.report_generator - INFO - Excel报告已生成: outputs/f72268a4-c93c-4aa1-8fef-e74475dc844d_report.xlsx
+2025-06-21 12:07:55,728 - app.api.routes - INFO - 分析任务完成: f72268a4-c93c-4aa1-8fef-e74475dc844d
+2025-06-21 12:09:31,882 - app.api.routes - INFO - 视频上传成功: uploads/101774ba-4ead-460f-907a-07629180b168.mp4
+2025-06-21 12:09:31,885 - app.api.routes - INFO - 开始分析任务: 69c06de7-a78a-4a6d-adac-cab78f1c86e1
+2025-06-21 12:09:31,886 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 12:09:31,952 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 12:09:36,289 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 12:09:36,289 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 12:09:38,251 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 12:09:38,319 - app.utils.report_generator - INFO - 中文字体注册成功
+2025-06-21 12:09:38,332 - app.services.video_processor - INFO - 视频信息: 423帧, 30.0fps, 14.10秒
+2025-06-21 12:09:38,333 - app.services.video_processor - INFO - 将提取 3 帧
+2025-06-21 12:09:38,460 - app.services.video_processor - INFO - 成功提取 3 帧
+2025-06-21 12:09:38,460 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 12:09:47,431 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 74.8
+2025-06-21 12:09:47,431 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 12:09:51,056 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 60.8
+2025-06-21 12:09:51,058 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 12:09:54,646 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 63.4
+2025-06-21 12:09:54,647 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 12:09:54,647 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 12:09:54,647 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/101774ba-4ead-460f-907a-07629180b168.mp4
+2025-06-21 12:09:54,647 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/101774ba-4ead-460f-907a-07629180b168.mp4
+2025-06-21 12:09:55,523 - app.services.audio_processor - INFO - 音频提取完成: C:\Users\admin\AppData\Local\Temp\tmp_2w4y9ea.wav
+2025-06-21 12:09:55,523 - app.services.audio_processor - INFO - 开始Whisper语音识别: C:\Users\admin\AppData\Local\Temp\tmp_2w4y9ea.wav
+2025-06-21 12:09:56,054 - app.services.audio_processor - INFO - Whisper模型加载完成
+2025-06-21 12:09:56,054 - py.warnings - WARNING - C:\ai\质量\venv\Lib\site-packages\whisper\transcribe.py:126: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+
+2025-06-21 12:10:04,558 - app.services.audio_processor - INFO - Whisper识别完成，文本长度: 9
+2025-06-21 12:10:04,558 - app.services.audio_processor - INFO - 开始分析音频质量: C:\Users\admin\AppData\Local\Temp\tmp_2w4y9ea.wav
+2025-06-21 12:10:04,710 - app.services.audio_processor - INFO - 音频质量分析完成，评分: 100
+2025-06-21 12:10:04,711 - app.services.audio_processor - INFO - 临时音频文件已清理
+2025-06-21 12:10:04,711 - app.services.audio_processor - INFO - 视频音频处理完成
+2025-06-21 12:10:04,716 - app.utils.report_generator - INFO - JSON结果已保存: outputs/69c06de7-a78a-4a6d-adac-cab78f1c86e1_result.json
+2025-06-21 12:10:04,729 - app.utils.report_generator - INFO - PDF报告已生成: outputs/69c06de7-a78a-4a6d-adac-cab78f1c86e1_report.pdf
+2025-06-21 12:10:04,870 - app.utils.report_generator - INFO - Excel报告已生成: outputs/69c06de7-a78a-4a6d-adac-cab78f1c86e1_report.xlsx
+2025-06-21 12:10:04,872 - app.api.routes - INFO - 分析任务完成: 69c06de7-a78a-4a6d-adac-cab78f1c86e1
+2025-06-21 13:59:19,143 - app.api.routes - INFO - 视频上传成功: uploads/edf2f6e4-fbb4-48ef-83f7-eeed7368f879.mp4
+2025-06-21 13:59:19,147 - app.api.routes - INFO - 开始分析任务: 63da98a1-0078-4e4b-ab2c-0458f9292d2b
+2025-06-21 13:59:19,148 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 13:59:19,221 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 13:59:23,651 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 13:59:23,652 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 13:59:25,506 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 13:59:25,554 - app.utils.report_generator - INFO - 中文字体注册成功
+2025-06-21 13:59:25,590 - app.services.video_processor - INFO - 视频信息: 423帧, 30.0fps, 14.10秒
+2025-06-21 13:59:25,590 - app.services.video_processor - INFO - 将提取 3 帧
+2025-06-21 13:59:25,684 - app.services.video_processor - INFO - 成功提取 3 帧
+2025-06-21 13:59:25,684 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 13:59:29,603 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 74.8
+2025-06-21 13:59:29,603 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 13:59:33,275 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 60.8
+2025-06-21 13:59:33,275 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 13:59:36,842 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 63.4
+2025-06-21 13:59:36,842 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 13:59:36,842 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 13:59:36,844 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/edf2f6e4-fbb4-48ef-83f7-eeed7368f879.mp4
+2025-06-21 13:59:36,844 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/edf2f6e4-fbb4-48ef-83f7-eeed7368f879.mp4
+2025-06-21 13:59:38,091 - app.services.audio_processor - INFO - 音频提取完成: C:\Users\admin\AppData\Local\Temp\tmpl8msthol.wav
+2025-06-21 13:59:38,091 - app.services.audio_processor - INFO - 开始Whisper语音识别: C:\Users\admin\AppData\Local\Temp\tmpl8msthol.wav
+2025-06-21 13:59:38,824 - app.services.audio_processor - INFO - Whisper模型加载完成
+2025-06-21 13:59:38,833 - py.warnings - WARNING - C:\ai\质量\venv\Lib\site-packages\whisper\transcribe.py:126: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+
+2025-06-21 13:59:49,271 - app.services.audio_processor - INFO - Whisper识别完成，文本长度: 109
+2025-06-21 13:59:49,271 - app.services.audio_processor - INFO - 开始分析音频质量: C:\Users\admin\AppData\Local\Temp\tmpl8msthol.wav
+2025-06-21 13:59:49,422 - app.services.audio_processor - INFO - 音频质量分析完成，评分: 100
+2025-06-21 13:59:49,426 - app.services.audio_processor - INFO - 临时音频文件已清理
+2025-06-21 13:59:49,427 - app.services.audio_processor - INFO - 视频音频处理完成
+2025-06-21 13:59:49,428 - app.utils.report_generator - INFO - JSON结果已保存: outputs/63da98a1-0078-4e4b-ab2c-0458f9292d2b_result.json
+2025-06-21 13:59:49,452 - app.utils.report_generator - INFO - PDF报告已生成: outputs/63da98a1-0078-4e4b-ab2c-0458f9292d2b_report.pdf
+2025-06-21 13:59:49,622 - app.utils.report_generator - INFO - Excel报告已生成: outputs/63da98a1-0078-4e4b-ab2c-0458f9292d2b_report.xlsx
+2025-06-21 13:59:49,622 - app.api.routes - INFO - 分析任务完成: 63da98a1-0078-4e4b-ab2c-0458f9292d2b
+2025-06-21 14:14:35,620 - app.api.routes - INFO - 视频上传成功: uploads/6a06039d-a562-4a4a-8ed1-fe34d53917c8.mp4
+2025-06-21 14:14:35,635 - app.api.routes - INFO - 开始分析任务: ea4c29cf-20e1-4863-aa96-de5c8c1b9437
+2025-06-21 14:14:35,636 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 14:14:35,682 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 14:14:37,115 - app.services.image_analyzer - ERROR - 模型加载失败: Due to a serious vulnerability issue in `torch.load`, even with `weights_only=True`, we now require users to upgrade torch to at least v2.6 in order to use the function. This version restriction does not apply when loading files with safetensors.
+See the vulnerability report here https://nvd.nist.gov/vuln/detail/CVE-2025-32434
+2025-06-21 14:14:37,115 - app.api.routes - ERROR - 分析任务失败 ea4c29cf-20e1-4863-aa96-de5c8c1b9437: Due to a serious vulnerability issue in `torch.load`, even with `weights_only=True`, we now require users to upgrade torch to at least v2.6 in order to use the function. This version restriction does not apply when loading files with safetensors.
+See the vulnerability report here https://nvd.nist.gov/vuln/detail/CVE-2025-32434
+2025-06-21 14:40:20,656 - app.api.routes - INFO - 视频上传成功: uploads/eecd3c63-2ce6-43ae-a978-ae5926ebaa70.mp4
+2025-06-21 14:40:20,659 - app.api.routes - INFO - 开始分析任务: ea689cd9-ed30-44a7-97cc-87a09d7df4bc
+2025-06-21 14:40:20,661 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 14:40:20,713 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 14:40:25,073 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 14:40:25,074 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 14:40:26,702 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 14:40:26,744 - app.utils.report_generator - INFO - 中文字体注册成功
+2025-06-21 14:40:26,749 - app.services.video_processor - INFO - 视频信息: 423帧, 30.0fps, 14.10秒
+2025-06-21 14:40:26,749 - app.services.video_processor - INFO - 将提取 3 帧
+2025-06-21 14:40:26,838 - app.services.video_processor - INFO - 成功提取 3 帧
+2025-06-21 14:40:26,838 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 14:40:30,689 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 74.8
+2025-06-21 14:40:30,689 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 14:40:34,348 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 60.8
+2025-06-21 14:40:34,349 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 14:40:37,924 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 63.4
+2025-06-21 14:40:37,924 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 14:40:37,926 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 14:40:37,926 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/eecd3c63-2ce6-43ae-a978-ae5926ebaa70.mp4
+2025-06-21 14:40:37,926 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/eecd3c63-2ce6-43ae-a978-ae5926ebaa70.mp4
+2025-06-21 14:40:38,852 - app.services.audio_processor - INFO - 音频提取完成: C:\Users\admin\AppData\Local\Temp\tmpptp07_3j.wav
+2025-06-21 14:40:38,852 - app.services.audio_processor - INFO - 开始Whisper语音识别: C:\Users\admin\AppData\Local\Temp\tmpptp07_3j.wav
+2025-06-21 14:40:39,394 - app.services.audio_processor - INFO - Whisper模型加载完成
+2025-06-21 14:40:39,395 - py.warnings - WARNING - C:\ai\质量\venv\Lib\site-packages\whisper\transcribe.py:126: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+
+2025-06-21 14:40:48,647 - app.services.audio_processor - INFO - Whisper识别完成，文本长度: 37
+2025-06-21 14:40:48,647 - app.services.audio_processor - INFO - 开始分析音频质量: C:\Users\admin\AppData\Local\Temp\tmpptp07_3j.wav
+2025-06-21 14:40:48,793 - app.services.audio_processor - INFO - 音频质量分析完成，评分: 100
+2025-06-21 14:40:48,798 - app.services.audio_processor - INFO - 临时音频文件已清理
+2025-06-21 14:40:48,798 - app.services.audio_processor - INFO - 视频音频处理完成
+2025-06-21 14:40:48,800 - app.utils.report_generator - INFO - JSON结果已保存: outputs/ea689cd9-ed30-44a7-97cc-87a09d7df4bc_result.json
+2025-06-21 14:40:48,817 - app.utils.report_generator - INFO - PDF报告已生成: outputs/ea689cd9-ed30-44a7-97cc-87a09d7df4bc_report.pdf
+2025-06-21 14:40:48,992 - app.utils.report_generator - INFO - Excel报告已生成: outputs/ea689cd9-ed30-44a7-97cc-87a09d7df4bc_report.xlsx
+2025-06-21 14:40:48,992 - app.api.routes - INFO - 分析任务完成: ea689cd9-ed30-44a7-97cc-87a09d7df4bc
+2025-06-21 14:42:16,835 - app.api.routes - INFO - 视频上传成功: uploads/12c6dff0-9a6c-40c0-aa2a-54f4c62e34da.mp4
+2025-06-21 14:42:16,839 - app.api.routes - INFO - 开始分析任务: 0efbf33c-0f9a-4b11-ae52-c649b74e21cf
+2025-06-21 14:42:16,840 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 14:42:16,965 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 14:42:20,683 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 14:42:20,683 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 14:42:22,547 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 14:42:22,803 - app.utils.report_generator - INFO - 中文字体注册成功
+2025-06-21 14:42:22,834 - app.services.video_processor - INFO - 视频信息: 451帧, 30.0fps, 15.03秒
+2025-06-21 14:42:22,834 - app.services.video_processor - INFO - 将提取 4 帧
+2025-06-21 14:42:23,079 - app.services.video_processor - INFO - 成功提取 4 帧
+2025-06-21 14:42:23,079 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 14:42:27,757 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 14:42:28,027 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 84.7
+2025-06-21 14:42:28,027 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 14:42:31,494 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 14:42:31,653 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 90.4
+2025-06-21 14:42:31,654 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 14:42:35,040 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 14:42:35,189 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 83.2
+2025-06-21 14:42:35,191 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0003_15.00s.jpg
+2025-06-21 14:42:38,650 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 14:42:38,808 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 47.0
+2025-06-21 14:42:38,808 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 14:42:38,809 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 14:42:38,809 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/12c6dff0-9a6c-40c0-aa2a-54f4c62e34da.mp4
+2025-06-21 14:42:38,809 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/12c6dff0-9a6c-40c0-aa2a-54f4c62e34da.mp4
+2025-06-21 14:42:39,437 - app.services.audio_processor - INFO - 音频提取完成: C:\Users\admin\AppData\Local\Temp\tmpk4hqba9i.wav
+2025-06-21 14:42:39,437 - app.services.audio_processor - INFO - 开始Whisper语音识别: C:\Users\admin\AppData\Local\Temp\tmpk4hqba9i.wav
+2025-06-21 14:42:39,850 - app.services.audio_processor - INFO - Whisper模型加载完成
+2025-06-21 14:42:39,851 - py.warnings - WARNING - C:\ai\质量\venv\Lib\site-packages\whisper\transcribe.py:126: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+
+2025-06-21 14:42:41,212 - app.services.audio_processor - INFO - Whisper识别完成，文本长度: 20
+2025-06-21 14:42:41,212 - app.services.audio_processor - INFO - 开始分析音频质量: C:\Users\admin\AppData\Local\Temp\tmpk4hqba9i.wav
+2025-06-21 14:42:41,363 - app.services.audio_processor - INFO - 音频质量分析完成，评分: 100
+2025-06-21 14:42:41,367 - app.services.audio_processor - INFO - 临时音频文件已清理
+2025-06-21 14:42:41,368 - app.services.audio_processor - INFO - 视频音频处理完成
+2025-06-21 14:42:41,369 - app.utils.report_generator - INFO - JSON结果已保存: outputs/0efbf33c-0f9a-4b11-ae52-c649b74e21cf_result.json
+2025-06-21 14:42:41,386 - app.utils.report_generator - INFO - PDF报告已生成: outputs/0efbf33c-0f9a-4b11-ae52-c649b74e21cf_report.pdf
+2025-06-21 14:42:41,451 - app.utils.report_generator - INFO - Excel报告已生成: outputs/0efbf33c-0f9a-4b11-ae52-c649b74e21cf_report.xlsx
+2025-06-21 14:42:41,452 - app.api.routes - INFO - 分析任务完成: 0efbf33c-0f9a-4b11-ae52-c649b74e21cf
+2025-06-21 14:44:25,776 - app.api.routes - INFO - 视频上传成功: uploads/925ded75-e9c8-4d3e-b8fd-92bf9a6dfa73.mp4
+2025-06-21 14:44:25,780 - app.api.routes - INFO - 开始分析任务: ff6d8b6a-d7d1-4404-af78-67ef2c5b5e3c
+2025-06-21 14:44:25,781 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 14:44:25,804 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 14:44:29,672 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 14:44:29,674 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 14:44:30,675 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 14:44:30,721 - app.utils.report_generator - INFO - 中文字体注册成功
+2025-06-21 14:44:30,752 - app.services.video_processor - INFO - 视频信息: 451帧, 30.0fps, 15.03秒
+2025-06-21 14:44:30,753 - app.services.video_processor - INFO - 将提取 4 帧
+2025-06-21 14:44:30,905 - app.services.video_processor - INFO - 成功提取 4 帧
+2025-06-21 14:44:30,905 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 14:44:34,595 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 14:44:34,595 - app.services.image_analyzer - ERROR - 水印检测异常时OCR原始结果: None
+2025-06-21 14:44:34,888 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 84.7
+2025-06-21 14:44:34,890 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 14:44:38,452 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 14:44:38,452 - app.services.image_analyzer - ERROR - 水印检测异常时OCR原始结果: None
+2025-06-21 14:44:38,601 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 90.4
+2025-06-21 14:44:38,601 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 14:44:42,059 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 14:44:42,059 - app.services.image_analyzer - ERROR - 水印检测异常时OCR原始结果: None
+2025-06-21 14:44:42,215 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 83.2
+2025-06-21 14:44:42,215 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0003_15.00s.jpg
+2025-06-21 14:44:45,668 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 14:44:45,668 - app.services.image_analyzer - ERROR - 水印检测异常时OCR原始结果: None
+2025-06-21 14:44:45,828 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 47.0
+2025-06-21 14:44:45,829 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 14:44:45,829 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 14:44:45,829 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/925ded75-e9c8-4d3e-b8fd-92bf9a6dfa73.mp4
+2025-06-21 14:44:45,829 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/925ded75-e9c8-4d3e-b8fd-92bf9a6dfa73.mp4
+2025-06-21 14:44:47,156 - app.services.audio_processor - INFO - 音频提取完成: C:\Users\admin\AppData\Local\Temp\tmpal7_iayt.wav
+2025-06-21 14:44:47,156 - app.services.audio_processor - INFO - 开始Whisper语音识别: C:\Users\admin\AppData\Local\Temp\tmpal7_iayt.wav
+2025-06-21 14:44:47,694 - app.services.audio_processor - INFO - Whisper模型加载完成
+2025-06-21 14:44:47,696 - py.warnings - WARNING - C:\ai\质量\venv\Lib\site-packages\whisper\transcribe.py:126: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+
+2025-06-21 14:44:49,220 - app.services.audio_processor - INFO - Whisper识别完成，文本长度: 20
+2025-06-21 14:44:49,220 - app.services.audio_processor - INFO - 开始分析音频质量: C:\Users\admin\AppData\Local\Temp\tmpal7_iayt.wav
+2025-06-21 14:44:49,380 - app.services.audio_processor - INFO - 音频质量分析完成，评分: 100
+2025-06-21 14:44:49,383 - app.services.audio_processor - INFO - 临时音频文件已清理
+2025-06-21 14:44:49,383 - app.services.audio_processor - INFO - 视频音频处理完成
+2025-06-21 14:44:49,385 - app.utils.report_generator - INFO - JSON结果已保存: outputs/ff6d8b6a-d7d1-4404-af78-67ef2c5b5e3c_result.json
+2025-06-21 14:44:49,403 - app.utils.report_generator - INFO - PDF报告已生成: outputs/ff6d8b6a-d7d1-4404-af78-67ef2c5b5e3c_report.pdf
+2025-06-21 14:44:49,574 - app.utils.report_generator - INFO - Excel报告已生成: outputs/ff6d8b6a-d7d1-4404-af78-67ef2c5b5e3c_report.xlsx
+2025-06-21 14:44:49,576 - app.api.routes - INFO - 分析任务完成: ff6d8b6a-d7d1-4404-af78-67ef2c5b5e3c
+2025-06-21 14:48:19,847 - app.api.routes - INFO - 开始分析任务: c4ff9268-e7e8-41d5-8512-e7c9ee4f5a8b
+2025-06-21 14:48:19,848 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 14:48:19,875 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 14:48:23,913 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 14:48:23,913 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 14:48:24,970 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 14:48:25,029 - app.utils.report_generator - INFO - 中文字体注册成功
+2025-06-21 14:48:25,029 - app.services.video_processor - INFO - 检测到URL类型: generic
+2025-06-21 14:48:25,138 - app.services.video_processor - INFO - 正在获取视频信息: https://v16m-default.tiktokcdn.com/25e749ad7e4c700832dc826baf503b5a/6856aa1f/video/tos/maliva/tos-maliva-ve-0068c799-us/o4e5rgIGgFS6zvGLIWUoNAQ4ROYVeKnAyGIegf/?a=0&bti=OHYpOTY0Zik3OjlmOm01MzE6ZDQ0MDo%3D&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C&cv=1&br=3048&bt=1524&cs=0&ds=3&ft=EeF4ntZWD00Q12Nvh_RZWIxRK__O5F_45SY&mime_type=video_mp4&qs=0&rc=aDtkOzM6NjY3MzgzOGRoOUBpamZyNng5cjpkMzMzZzczNEA0YC40LS8zXjAxYGNhMWBhYSNzMDFrMmRzNDJhLS1kMS9zcw%3D%3D&vvpl=1&l=20250621064730E691488B7BD2034D36CF&btag=e00090000
+2025-06-21 14:48:26,365 - app.services.video_processor - ERROR - 下载视频失败: [0;31mERROR:[0m [generic] ?a=0&bti=OHYpOTY0Zik3OjlmOm01MzE6ZDQ0MDo=&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0|0|0|&cv=1&br=3048&bt=1524&cs=0&ds=3&ft=EeF4ntZWD00Q12Nvh_RZWIxRK__O5F_45SY&mime_type=video_mp4&qs=0&rc=aDtkOzM6NjY3MzgzOGRoOUBpamZyNng5cjpkMzMzZzczNEA0YC40LS8zXjAxYGNhMWBhYSNzMDFrMmRzNDJhLS1kMS9zcw==&vvpl=1&l=20250621064730E691488B7BD2034D36CF&btag=e00090000: Requested format is not available. Use --list-formats for a list of available formats
+2025-06-21 14:48:26,365 - app.api.routes - ERROR - 分析任务失败 c4ff9268-e7e8-41d5-8512-e7c9ee4f5a8b: [0;31mERROR:[0m [generic] ?a=0&bti=OHYpOTY0Zik3OjlmOm01MzE6ZDQ0MDo=&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0|0|0|&cv=1&br=3048&bt=1524&cs=0&ds=3&ft=EeF4ntZWD00Q12Nvh_RZWIxRK__O5F_45SY&mime_type=video_mp4&qs=0&rc=aDtkOzM6NjY3MzgzOGRoOUBpamZyNng5cjpkMzMzZzczNEA0YC40LS8zXjAxYGNhMWBhYSNzMDFrMmRzNDJhLS1kMS9zcw==&vvpl=1&l=20250621064730E691488B7BD2034D36CF&btag=e00090000: Requested format is not available. Use --list-formats for a list of available formats
+2025-06-21 14:50:24,614 - app.services.video_processor - INFO - 正在获取视频格式信息: https://v16m-default.tiktokcdn.com/25e749ad7e4c700832dc826baf503b5a/6856aa1f/video/tos/maliva/tos-maliva-ve-0068c799-us/o4e5rgIGgFS6zvGLIWUoNAQ4ROYVeKnAyGIegf/?a=0&bti=OHYpOTY0Zik3OjlmOm01MzE6ZDQ0MDo%3D&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C&cv=1&br=3048&bt=1524&cs=0&ds=3&ft=EeF4ntZWD00Q12Nvh_RZWIxRK__O5F_45SY&mime_type=video_mp4&qs=0&rc=aDtkOzM6NjY3MzgzOGRoOUBpamZyNng5cjpkMzMzZzczNEA0YC40LS8zXjAxYGNhMWBhYSNzMDFrMmRzNDJhLS1kMS9zcw%3D%3D&vvpl=1&l=20250621064730E691488B7BD2034D36CF&btag=e00090000
+2025-06-21 14:50:31,360 - app.api.routes - INFO - 开始分析任务: c2e2154f-ca65-4ede-9bd1-d48742a3dc93
+2025-06-21 14:50:31,360 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 14:50:31,480 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 14:51:01,822 - app.services.image_analyzer - ERROR - 模型加载失败: (ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: c1d7768c-40f8-42ab-88c5-b56aeef8d85c)')
+2025-06-21 14:51:01,822 - app.api.routes - ERROR - 分析任务失败 c2e2154f-ca65-4ede-9bd1-d48742a3dc93: (ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: c1d7768c-40f8-42ab-88c5-b56aeef8d85c)')
+2025-06-21 14:51:23,919 - app.api.routes - INFO - 视频上传成功: uploads/7fe662ec-f9a1-4efd-817b-8c7a6160bc54.mp4
+2025-06-21 14:51:23,972 - app.api.routes - INFO - 开始分析任务: ab2b9505-7588-4c3c-8f24-14de5538bc7a
+2025-06-21 14:51:23,973 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 14:51:23,998 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 14:51:37,165 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 14:51:37,166 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 14:51:38,171 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 14:51:38,218 - app.utils.report_generator - INFO - 中文字体注册成功
+2025-06-21 14:51:38,249 - app.services.video_processor - INFO - 视频信息: 313帧, 30.0fps, 10.43秒
+2025-06-21 14:51:38,249 - app.services.video_processor - INFO - 将提取 3 帧
+2025-06-21 14:51:38,440 - app.services.video_processor - INFO - 成功提取 3 帧
+2025-06-21 14:51:38,440 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 14:51:50,022 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 14:51:50,023 - app.services.image_analyzer - ERROR - 水印检测异常时OCR原始结果: None
+2025-06-21 14:51:50,325 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 94.0
+2025-06-21 14:51:50,326 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 14:52:02,090 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 14:52:02,090 - app.services.image_analyzer - ERROR - 水印检测异常时OCR原始结果: None
+2025-06-21 14:52:02,262 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 94.7
+2025-06-21 14:52:02,262 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 14:52:13,930 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 14:52:13,930 - app.services.image_analyzer - ERROR - 水印检测异常时OCR原始结果: None
+2025-06-21 14:52:14,105 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 95.3
+2025-06-21 14:52:14,106 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 14:52:14,106 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 14:52:14,106 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/7fe662ec-f9a1-4efd-817b-8c7a6160bc54.mp4
+2025-06-21 14:52:14,106 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/7fe662ec-f9a1-4efd-817b-8c7a6160bc54.mp4
+2025-06-21 14:52:14,810 - app.services.audio_processor - WARNING - 视频中没有音频轨道
+2025-06-21 14:52:14,812 - app.utils.report_generator - INFO - JSON结果已保存: outputs/ab2b9505-7588-4c3c-8f24-14de5538bc7a_result.json
+2025-06-21 14:52:14,841 - app.utils.report_generator - INFO - PDF报告已生成: outputs/ab2b9505-7588-4c3c-8f24-14de5538bc7a_report.pdf
+2025-06-21 14:52:15,099 - app.utils.report_generator - INFO - Excel报告已生成: outputs/ab2b9505-7588-4c3c-8f24-14de5538bc7a_report.xlsx
+2025-06-21 14:52:15,100 - app.api.routes - INFO - 分析任务完成: ab2b9505-7588-4c3c-8f24-14de5538bc7a
+2025-06-21 14:52:46,525 - app.api.routes - INFO - 视频上传成功: uploads/baf2bdde-fbbe-439c-84a2-45ded1aca50d.mp4
+2025-06-21 14:52:46,575 - app.api.routes - INFO - 开始分析任务: 2d422746-d31d-4746-899c-a11278485bad
+2025-06-21 14:52:46,575 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 14:52:46,601 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 14:52:50,356 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 14:52:50,356 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 14:52:51,406 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 14:52:51,450 - app.utils.report_generator - INFO - 中文字体注册成功
+2025-06-21 14:52:51,481 - app.services.video_processor - INFO - 视频信息: 313帧, 30.0fps, 10.43秒
+2025-06-21 14:52:51,481 - app.services.video_processor - INFO - 将提取 3 帧
+2025-06-21 14:52:51,694 - app.services.video_processor - INFO - 成功提取 3 帧
+2025-06-21 14:52:51,694 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 14:53:04,945 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 14:53:04,945 - app.services.image_analyzer - ERROR - 水印检测异常时OCR原始结果: None
+2025-06-21 14:53:05,242 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 94.0
+2025-06-21 14:53:05,242 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 14:53:17,051 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 14:53:17,051 - app.services.image_analyzer - ERROR - 水印检测异常时OCR原始结果: None
+2025-06-21 14:53:17,225 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 94.7
+2025-06-21 14:53:17,225 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 14:53:29,441 - app.services.image_analyzer - ERROR - 水印检测失败: too many values to unpack (expected 2)
+2025-06-21 14:53:29,442 - app.services.image_analyzer - ERROR - 水印检测异常时OCR原始结果: None
+2025-06-21 14:53:29,619 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 95.3
+2025-06-21 14:53:29,620 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 14:53:29,620 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 14:53:29,620 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/baf2bdde-fbbe-439c-84a2-45ded1aca50d.mp4
+2025-06-21 14:53:29,621 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/baf2bdde-fbbe-439c-84a2-45ded1aca50d.mp4
+2025-06-21 14:53:30,371 - app.services.audio_processor - WARNING - 视频中没有音频轨道
+2025-06-21 14:53:30,373 - app.utils.report_generator - INFO - JSON结果已保存: outputs/2d422746-d31d-4746-899c-a11278485bad_result.json
+2025-06-21 14:53:30,401 - app.utils.report_generator - INFO - PDF报告已生成: outputs/2d422746-d31d-4746-899c-a11278485bad_report.pdf
+2025-06-21 14:53:30,534 - app.utils.report_generator - INFO - Excel报告已生成: outputs/2d422746-d31d-4746-899c-a11278485bad_report.xlsx
+2025-06-21 14:53:30,536 - app.api.routes - INFO - 分析任务完成: 2d422746-d31d-4746-899c-a11278485bad
+2025-06-21 14:54:29,439 - app.api.routes - INFO - 视频上传成功: uploads/f86972cf-e452-4be2-ae06-9ae4ea034eef.mp4
+2025-06-21 14:54:29,486 - app.api.routes - INFO - 开始分析任务: 3053daee-e2ee-401d-bc93-185ae20639f2
+2025-06-21 14:54:29,487 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 14:54:29,509 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 14:54:33,492 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 14:54:33,492 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 14:54:34,522 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 14:54:34,564 - app.utils.report_generator - INFO - 中文字体注册成功
+2025-06-21 14:54:34,592 - app.services.video_processor - INFO - 视频信息: 313帧, 30.0fps, 10.43秒
+2025-06-21 14:54:34,592 - app.services.video_processor - INFO - 将提取 3 帧
+2025-06-21 14:54:34,785 - app.services.video_processor - INFO - 成功提取 3 帧
+2025-06-21 14:54:34,786 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 14:54:46,494 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 14:54:46,790 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 94.0
+2025-06-21 14:54:46,790 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 14:54:58,673 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 14:54:58,847 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 94.7
+2025-06-21 14:54:58,847 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 14:55:13,842 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 14:55:14,283 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 95.3
+2025-06-21 14:55:14,285 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 14:55:14,285 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 14:55:14,286 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/f86972cf-e452-4be2-ae06-9ae4ea034eef.mp4
+2025-06-21 14:55:14,286 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/f86972cf-e452-4be2-ae06-9ae4ea034eef.mp4
+2025-06-21 14:55:16,093 - app.services.audio_processor - WARNING - 视频中没有音频轨道
+2025-06-21 14:55:16,094 - app.utils.report_generator - INFO - JSON结果已保存: outputs/3053daee-e2ee-401d-bc93-185ae20639f2_result.json
+2025-06-21 14:55:16,134 - app.utils.report_generator - INFO - PDF报告已生成: outputs/3053daee-e2ee-401d-bc93-185ae20639f2_report.pdf
+2025-06-21 14:55:16,565 - app.utils.report_generator - INFO - Excel报告已生成: outputs/3053daee-e2ee-401d-bc93-185ae20639f2_report.xlsx
+2025-06-21 14:55:16,565 - app.api.routes - INFO - 分析任务完成: 3053daee-e2ee-401d-bc93-185ae20639f2
+2025-06-21 14:55:22,307 - app.api.routes - INFO - 视频上传成功: uploads/94a2ac67-def2-44cc-b0c5-8aa7fce3c4d1.mp4
+2025-06-21 14:55:22,310 - app.api.routes - INFO - 开始分析任务: c7981698-e9f9-4d90-aca0-503f2744ca76
+2025-06-21 14:55:22,311 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 14:55:22,335 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 14:55:25,643 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 14:55:25,644 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 14:55:26,643 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 14:55:26,685 - app.utils.report_generator - INFO - 中文字体注册成功
+2025-06-21 14:55:26,706 - app.services.video_processor - INFO - 视频信息: 451帧, 30.0fps, 15.03秒
+2025-06-21 14:55:26,706 - app.services.video_processor - INFO - 将提取 4 帧
+2025-06-21 14:55:26,858 - app.services.video_processor - INFO - 成功提取 4 帧
+2025-06-21 14:55:26,858 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 14:55:30,356 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 14:55:30,638 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 84.7
+2025-06-21 14:55:30,638 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 14:55:34,155 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 14:55:34,311 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 90.4
+2025-06-21 14:55:34,311 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 14:55:37,764 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 14:55:37,917 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 83.2
+2025-06-21 14:55:37,917 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0003_15.00s.jpg
+2025-06-21 14:55:41,402 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 14:55:41,561 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 47.0
+2025-06-21 14:55:41,561 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 14:55:41,561 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 14:55:41,561 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/94a2ac67-def2-44cc-b0c5-8aa7fce3c4d1.mp4
+2025-06-21 14:55:41,561 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/94a2ac67-def2-44cc-b0c5-8aa7fce3c4d1.mp4
+2025-06-21 14:55:42,271 - app.services.audio_processor - INFO - 音频提取完成: C:\Users\admin\AppData\Local\Temp\tmpihgrkkrg.wav
+2025-06-21 14:55:42,271 - app.services.audio_processor - INFO - 开始Whisper语音识别: C:\Users\admin\AppData\Local\Temp\tmpihgrkkrg.wav
+2025-06-21 14:55:42,827 - app.services.audio_processor - INFO - Whisper模型加载完成
+2025-06-21 14:55:42,828 - py.warnings - WARNING - C:\ai\质量\venv\Lib\site-packages\whisper\transcribe.py:126: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+
+2025-06-21 14:55:44,402 - app.services.audio_processor - INFO - Whisper识别完成，文本长度: 20
+2025-06-21 14:55:44,402 - app.services.audio_processor - INFO - 开始分析音频质量: C:\Users\admin\AppData\Local\Temp\tmpihgrkkrg.wav
+2025-06-21 14:55:44,564 - app.services.audio_processor - INFO - 音频质量分析完成，评分: 100
+2025-06-21 14:55:44,568 - app.services.audio_processor - INFO - 临时音频文件已清理
+2025-06-21 14:55:44,568 - app.services.audio_processor - INFO - 视频音频处理完成
+2025-06-21 14:55:44,569 - app.utils.report_generator - INFO - JSON结果已保存: outputs/c7981698-e9f9-4d90-aca0-503f2744ca76_result.json
+2025-06-21 14:55:44,588 - app.utils.report_generator - INFO - PDF报告已生成: outputs/c7981698-e9f9-4d90-aca0-503f2744ca76_report.pdf
+2025-06-21 14:55:44,615 - app.utils.report_generator - INFO - Excel报告已生成: outputs/c7981698-e9f9-4d90-aca0-503f2744ca76_report.xlsx
+2025-06-21 14:55:44,617 - app.api.routes - INFO - 分析任务完成: c7981698-e9f9-4d90-aca0-503f2744ca76
+2025-06-21 14:57:57,381 - app.api.routes - INFO - 视频上传成功: uploads/3e007b26-a3c9-4036-8004-999cda2b9581.mp4
+2025-06-21 14:57:57,430 - app.api.routes - INFO - 开始分析任务: 0ed7eae0-405d-4f38-ab7a-794938e0691e
+2025-06-21 14:57:57,431 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 14:57:57,473 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 14:58:00,833 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 14:58:00,833 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 14:58:01,838 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 14:58:01,880 - app.utils.report_generator - INFO - 中文字体注册成功
+2025-06-21 14:58:01,909 - app.services.video_processor - INFO - 视频信息: 313帧, 30.0fps, 10.43秒
+2025-06-21 14:58:01,909 - app.services.video_processor - INFO - 将提取 3 帧
+2025-06-21 14:58:02,105 - app.services.video_processor - INFO - 成功提取 3 帧
+2025-06-21 14:58:02,106 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 14:58:13,796 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 14:58:14,086 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 94.0
+2025-06-21 14:58:14,086 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 14:58:26,457 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 14:58:26,634 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 94.7
+2025-06-21 14:58:26,635 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 14:58:56,690 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 14:58:57,143 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 95.3
+2025-06-21 14:58:57,144 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 14:58:57,144 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 14:58:57,144 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/3e007b26-a3c9-4036-8004-999cda2b9581.mp4
+2025-06-21 14:58:57,144 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/3e007b26-a3c9-4036-8004-999cda2b9581.mp4
+2025-06-21 14:58:57,818 - app.services.audio_processor - WARNING - 视频中没有音频轨道
+2025-06-21 14:58:57,821 - app.utils.report_generator - INFO - JSON结果已保存: outputs/0ed7eae0-405d-4f38-ab7a-794938e0691e_result.json
+2025-06-21 14:58:57,862 - app.utils.report_generator - INFO - PDF报告已生成: outputs/0ed7eae0-405d-4f38-ab7a-794938e0691e_report.pdf
+2025-06-21 14:58:57,898 - app.utils.report_generator - INFO - Excel报告已生成: outputs/0ed7eae0-405d-4f38-ab7a-794938e0691e_report.xlsx
+2025-06-21 14:58:57,901 - app.api.routes - INFO - 分析任务完成: 0ed7eae0-405d-4f38-ab7a-794938e0691e
+2025-06-21 15:07:40,179 - app.api.routes - INFO - 视频上传成功: uploads/c5c78d5e-899c-4b5c-8286-1c7ed1141310.mp4
+2025-06-21 15:07:40,185 - app.api.routes - INFO - 开始分析任务: 399b40ae-e7cf-4b69-98f2-26c6c2b16b60
+2025-06-21 15:07:40,187 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 15:07:40,287 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 15:07:44,753 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 15:07:44,755 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 15:07:47,327 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 15:07:47,391 - app.utils.report_generator - INFO - 中文字体注册成功
+2025-06-21 15:07:47,422 - app.services.video_processor - INFO - 视频信息: 451帧, 30.0fps, 15.03秒
+2025-06-21 15:07:47,422 - app.services.video_processor - INFO - 将提取 4 帧
+2025-06-21 15:07:47,713 - app.services.video_processor - INFO - 成功提取 4 帧
+2025-06-21 15:07:47,713 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 15:07:48,943 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:07:49,162 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 84.7
+2025-06-21 15:07:49,162 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 15:07:50,204 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:07:50,346 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 90.4
+2025-06-21 15:07:50,347 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 15:07:51,382 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:07:51,524 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 83.2
+2025-06-21 15:07:51,525 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0003_15.00s.jpg
+2025-06-21 15:07:52,538 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:07:52,670 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 47.0
+2025-06-21 15:07:52,672 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 15:07:52,672 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 15:07:52,672 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/c5c78d5e-899c-4b5c-8286-1c7ed1141310.mp4
+2025-06-21 15:07:52,673 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/c5c78d5e-899c-4b5c-8286-1c7ed1141310.mp4
+2025-06-21 15:07:55,585 - app.services.audio_processor - INFO - 音频提取完成: C:\Users\admin\AppData\Local\Temp\tmpgqdctqc0.wav
+2025-06-21 15:07:55,585 - app.services.audio_processor - INFO - 开始Whisper语音识别: C:\Users\admin\AppData\Local\Temp\tmpgqdctqc0.wav
+2025-06-21 15:07:56,549 - app.services.audio_processor - INFO - Whisper模型加载完成
+2025-06-21 15:07:56,551 - py.warnings - WARNING - C:\ai\质量\venv\Lib\site-packages\whisper\transcribe.py:126: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+
+2025-06-21 15:07:57,759 - app.services.audio_processor - INFO - Whisper识别完成，文本长度: 20
+2025-06-21 15:07:57,759 - app.services.audio_processor - INFO - 开始分析音频质量: C:\Users\admin\AppData\Local\Temp\tmpgqdctqc0.wav
+2025-06-21 15:07:58,027 - app.services.audio_processor - INFO - 音频质量分析完成，评分: 100
+2025-06-21 15:07:58,039 - app.services.audio_processor - INFO - 临时音频文件已清理
+2025-06-21 15:07:58,039 - app.services.audio_processor - INFO - 视频音频处理完成
+2025-06-21 15:07:58,040 - app.utils.report_generator - INFO - JSON结果已保存: outputs/399b40ae-e7cf-4b69-98f2-26c6c2b16b60_result.json
+2025-06-21 15:07:58,079 - app.utils.report_generator - INFO - PDF报告已生成: outputs/399b40ae-e7cf-4b69-98f2-26c6c2b16b60_report.pdf
+2025-06-21 15:07:58,502 - app.utils.report_generator - INFO - Excel报告已生成: outputs/399b40ae-e7cf-4b69-98f2-26c6c2b16b60_report.xlsx
+2025-06-21 15:07:58,505 - app.api.routes - INFO - 分析任务完成: 399b40ae-e7cf-4b69-98f2-26c6c2b16b60
+2025-06-21 15:14:06,749 - app.api.routes - INFO - 视频上传成功: uploads/121e5a2c-546b-453f-bbfa-a955985abc89.mp4
+2025-06-21 15:14:06,753 - app.api.routes - INFO - 开始分析任务: 8c4e256e-37e0-49af-82f5-bae22aaacff8
+2025-06-21 15:14:06,754 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 15:14:06,811 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 15:14:11,112 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 15:14:11,114 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 15:14:13,351 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 15:14:13,414 - app.utils.report_generator - INFO - 中文字体注册成功
+2025-06-21 15:14:13,441 - app.services.video_processor - INFO - 视频信息: 451帧, 30.0fps, 15.03秒
+2025-06-21 15:14:13,441 - app.services.video_processor - INFO - 将提取 4 帧
+2025-06-21 15:14:13,646 - app.services.video_processor - INFO - 成功提取 4 帧
+2025-06-21 15:14:13,647 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 15:14:23,577 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:14:24,220 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 84.7
+2025-06-21 15:14:24,220 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 15:14:33,953 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:14:34,443 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 90.4
+2025-06-21 15:14:34,444 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 15:14:44,420 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:14:44,890 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 83.2
+2025-06-21 15:14:44,890 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0003_15.00s.jpg
+2025-06-21 15:14:54,688 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:14:55,127 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 47.0
+2025-06-21 15:14:55,128 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 15:14:55,128 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 15:14:55,128 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/121e5a2c-546b-453f-bbfa-a955985abc89.mp4
+2025-06-21 15:14:55,129 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/121e5a2c-546b-453f-bbfa-a955985abc89.mp4
+2025-06-21 15:14:56,767 - app.services.audio_processor - INFO - 音频提取完成: C:\Users\admin\AppData\Local\Temp\tmprohx7vcp.wav
+2025-06-21 15:14:56,768 - app.services.audio_processor - INFO - 开始Whisper语音识别: C:\Users\admin\AppData\Local\Temp\tmprohx7vcp.wav
+2025-06-21 15:14:57,558 - app.services.audio_processor - INFO - Whisper模型加载完成
+2025-06-21 15:14:57,558 - py.warnings - WARNING - C:\ai\质量\venv\Lib\site-packages\whisper\transcribe.py:126: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+
+2025-06-21 15:15:02,139 - app.services.audio_processor - INFO - Whisper识别完成，文本长度: 20
+2025-06-21 15:15:02,140 - app.services.audio_processor - INFO - 开始分析音频质量: C:\Users\admin\AppData\Local\Temp\tmprohx7vcp.wav
+2025-06-21 15:15:02,408 - app.services.audio_processor - INFO - 音频质量分析完成，评分: 100
+2025-06-21 15:15:02,415 - app.services.audio_processor - INFO - 临时音频文件已清理
+2025-06-21 15:15:02,416 - app.services.audio_processor - INFO - 视频音频处理完成
+2025-06-21 15:15:02,417 - app.utils.report_generator - INFO - JSON结果已保存: outputs/8c4e256e-37e0-49af-82f5-bae22aaacff8_result.json
+2025-06-21 15:15:02,457 - app.utils.report_generator - INFO - PDF报告已生成: outputs/8c4e256e-37e0-49af-82f5-bae22aaacff8_report.pdf
+2025-06-21 15:15:02,507 - app.utils.report_generator - INFO - Excel报告已生成: outputs/8c4e256e-37e0-49af-82f5-bae22aaacff8_report.xlsx
+2025-06-21 15:15:02,511 - app.api.routes - INFO - 分析任务完成: 8c4e256e-37e0-49af-82f5-bae22aaacff8
+2025-06-21 15:16:25,440 - app.api.routes - INFO - 视频上传成功: uploads/fcde9c77-2f28-4a1e-b754-5ce32e9db7f7.mp4
+2025-06-21 15:16:25,460 - app.api.routes - INFO - 开始分析任务: 5df469e3-f161-46a2-96b0-666e8dfa475b
+2025-06-21 15:16:25,462 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 15:16:25,548 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 15:16:29,474 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 15:16:29,475 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 15:16:31,434 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 15:16:31,765 - app.utils.report_generator - INFO - 中文字体注册成功
+2025-06-21 15:16:31,783 - app.services.video_processor - INFO - 视频信息: 126帧, 30.0fps, 4.20秒
+2025-06-21 15:16:31,783 - app.services.video_processor - INFO - 将提取 1 帧
+2025-06-21 15:16:31,828 - app.services.video_processor - INFO - 成功提取 1 帧
+2025-06-21 15:16:31,829 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 15:16:47,906 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 28.8
+2025-06-21 15:16:47,906 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 15:16:47,906 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 15:16:47,907 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/fcde9c77-2f28-4a1e-b754-5ce32e9db7f7.mp4
+2025-06-21 15:16:47,907 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/fcde9c77-2f28-4a1e-b754-5ce32e9db7f7.mp4
+2025-06-21 15:16:48,929 - app.services.audio_processor - INFO - 音频提取完成: C:\Users\admin\AppData\Local\Temp\tmpg8jvjotr.wav
+2025-06-21 15:16:48,929 - app.services.audio_processor - INFO - 开始Whisper语音识别: C:\Users\admin\AppData\Local\Temp\tmpg8jvjotr.wav
+2025-06-21 15:16:49,847 - app.services.audio_processor - INFO - Whisper模型加载完成
+2025-06-21 15:16:49,848 - py.warnings - WARNING - C:\ai\质量\venv\Lib\site-packages\whisper\transcribe.py:126: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+
+2025-06-21 15:16:53,798 - app.services.audio_processor - INFO - Whisper识别完成，文本长度: 14
+2025-06-21 15:16:53,799 - app.services.audio_processor - INFO - 开始分析音频质量: C:\Users\admin\AppData\Local\Temp\tmpg8jvjotr.wav
+2025-06-21 15:16:53,870 - app.services.audio_processor - INFO - 音频质量分析完成，评分: 100
+2025-06-21 15:16:53,873 - app.services.audio_processor - INFO - 临时音频文件已清理
+2025-06-21 15:16:53,873 - app.services.audio_processor - INFO - 视频音频处理完成
+2025-06-21 15:16:53,874 - app.utils.report_generator - INFO - JSON结果已保存: outputs/5df469e3-f161-46a2-96b0-666e8dfa475b_result.json
+2025-06-21 15:16:53,911 - app.utils.report_generator - INFO - PDF报告已生成: outputs/5df469e3-f161-46a2-96b0-666e8dfa475b_report.pdf
+2025-06-21 15:16:54,016 - app.utils.report_generator - INFO - Excel报告已生成: outputs/5df469e3-f161-46a2-96b0-666e8dfa475b_report.xlsx
+2025-06-21 15:16:54,018 - app.api.routes - INFO - 分析任务完成: 5df469e3-f161-46a2-96b0-666e8dfa475b
+2025-06-21 15:20:24,998 - app.api.routes - INFO - 视频上传成功: uploads/295bc680-f4bd-4297-87a7-602a8380ab8d.mp4
+2025-06-21 15:20:25,005 - app.api.routes - INFO - 开始分析任务: 433e56fd-7370-43d0-80da-301120b42e4f
+2025-06-21 15:20:25,007 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 15:20:25,092 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 15:20:28,949 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 15:20:28,950 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 15:20:31,306 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 15:20:31,394 - app.utils.report_generator - INFO - 中文字体注册成功
+2025-06-21 15:20:31,448 - app.services.video_processor - INFO - 视频信息: 2402帧, 30.0fps, 80.07秒
+2025-06-21 15:20:31,449 - app.services.video_processor - INFO - 将提取 17 帧
+2025-06-21 15:20:32,495 - app.services.video_processor - INFO - 成功提取 17 帧
+2025-06-21 15:20:32,496 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 15:21:07,758 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:21:08,386 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 77.3
+2025-06-21 15:21:08,386 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 15:21:42,117 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:21:42,514 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 63.6
+2025-06-21 15:21:42,530 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 15:21:54,927 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:21:55,093 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 75.6
+2025-06-21 15:21:55,094 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0003_15.00s.jpg
+2025-06-21 15:22:07,218 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:22:07,387 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 75.5
+2025-06-21 15:22:07,387 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0004_20.00s.jpg
+2025-06-21 15:22:19,592 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:22:19,771 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 75.9
+2025-06-21 15:22:19,771 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0005_25.00s.jpg
+2025-06-21 15:22:31,903 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:22:32,075 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 79.2
+2025-06-21 15:22:32,075 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0006_30.00s.jpg
+2025-06-21 15:22:44,310 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:22:44,481 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 77.7
+2025-06-21 15:22:44,481 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0007_35.00s.jpg
+2025-06-21 15:22:56,962 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:22:57,143 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 76.8
+2025-06-21 15:22:57,143 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0008_40.00s.jpg
+2025-06-21 15:23:11,140 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:23:11,603 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 79.8
+2025-06-21 15:23:11,603 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0009_45.00s.jpg
+2025-06-21 15:23:26,958 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:23:27,128 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 71.0
+2025-06-21 15:23:27,128 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0010_50.00s.jpg
+2025-06-21 15:23:51,948 - app.api.routes - INFO - 视频上传成功: uploads/5d9a716e-d00a-4532-915e-65453e1ae0dc.mp4
+2025-06-21 15:23:51,954 - app.api.routes - INFO - 开始分析任务: 9280714a-5c3c-4959-9103-1606e2c04a51
+2025-06-21 15:23:51,955 - app.services.image_analyzer - INFO - 使用设备: cpu
+2025-06-21 15:23:52,039 - app.services.image_analyzer - INFO - YOLOv8 模型加载完成
+2025-06-21 15:23:56,198 - app.services.image_analyzer - INFO - CLIP 模型加载完成
+2025-06-21 15:23:56,199 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-21 15:23:56,584 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:23:57,006 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 75.0
+2025-06-21 15:23:57,006 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0011_55.00s.jpg
+2025-06-21 15:23:58,226 - app.services.image_analyzer - INFO - OCR 模型加载完成
+2025-06-21 15:23:58,541 - app.utils.report_generator - INFO - 中文字体注册成功
+2025-06-21 15:23:58,570 - app.services.video_processor - INFO - 视频信息: 2402帧, 30.0fps, 80.07秒
+2025-06-21 15:23:58,571 - app.services.video_processor - INFO - 将提取 17 帧
+2025-06-21 15:23:59,725 - app.services.video_processor - INFO - 成功提取 17 帧
+2025-06-21 15:23:59,727 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0000_0.00s.jpg
+2025-06-21 15:24:02,253 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:02,466 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 77.3
+2025-06-21 15:24:02,467 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0001_5.00s.jpg
+2025-06-21 15:24:04,821 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:04,961 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 63.6
+2025-06-21 15:24:04,961 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0002_10.00s.jpg
+2025-06-21 15:24:07,258 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:07,389 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 75.6
+2025-06-21 15:24:07,389 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0003_15.00s.jpg
+2025-06-21 15:24:09,587 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:09,689 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 75.5
+2025-06-21 15:24:09,689 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0004_20.00s.jpg
+2025-06-21 15:24:11,884 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:11,986 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 75.9
+2025-06-21 15:24:11,987 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0005_25.00s.jpg
+2025-06-21 15:24:14,239 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:14,343 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 79.2
+2025-06-21 15:24:14,343 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0006_30.00s.jpg
+2025-06-21 15:24:16,552 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:16,664 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 77.7
+2025-06-21 15:24:16,667 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0007_35.00s.jpg
+2025-06-21 15:24:18,917 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:19,046 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 76.8
+2025-06-21 15:24:19,046 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0008_40.00s.jpg
+2025-06-21 15:24:20,813 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:21,162 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 75.0
+2025-06-21 15:24:21,162 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0012_60.00s.jpg
+2025-06-21 15:24:21,440 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:21,578 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 79.8
+2025-06-21 15:24:21,579 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0009_45.00s.jpg
+2025-06-21 15:24:23,844 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:23,940 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 71.0
+2025-06-21 15:24:23,940 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0010_50.00s.jpg
+2025-06-21 15:24:26,325 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:26,458 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 75.0
+2025-06-21 15:24:26,458 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0011_55.00s.jpg
+2025-06-21 15:24:28,765 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:28,894 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 75.0
+2025-06-21 15:24:28,895 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0012_60.00s.jpg
+2025-06-21 15:24:31,148 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:31,254 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 47.7
+2025-06-21 15:24:31,255 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0013_65.00s.jpg
+2025-06-21 15:24:33,658 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:33,761 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 78.4
+2025-06-21 15:24:33,761 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0014_70.00s.jpg
+2025-06-21 15:24:35,940 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:36,065 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 88.3
+2025-06-21 15:24:36,067 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0015_75.00s.jpg
+2025-06-21 15:24:38,278 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:38,380 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 76.8
+2025-06-21 15:24:38,380 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0016_80.00s.jpg
+2025-06-21 15:24:40,715 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:40,853 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 79.5
+2025-06-21 15:24:40,854 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 15:24:40,854 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 15:24:40,854 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/5d9a716e-d00a-4532-915e-65453e1ae0dc.mp4
+2025-06-21 15:24:40,854 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/5d9a716e-d00a-4532-915e-65453e1ae0dc.mp4
+2025-06-21 15:24:42,154 - app.services.audio_processor - INFO - 音频提取完成: C:\Users\admin\AppData\Local\Temp\tmpv4wonn8n.wav
+2025-06-21 15:24:42,154 - app.services.audio_processor - INFO - 开始Whisper语音识别: C:\Users\admin\AppData\Local\Temp\tmpv4wonn8n.wav
+2025-06-21 15:24:42,592 - app.services.audio_processor - INFO - Whisper模型加载完成
+2025-06-21 15:24:42,592 - py.warnings - WARNING - C:\ai\质量\venv\Lib\site-packages\whisper\transcribe.py:126: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+
+2025-06-21 15:24:43,252 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:24:43,620 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 47.7
+2025-06-21 15:24:43,620 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0013_65.00s.jpg
+2025-06-21 15:24:47,849 - app.services.audio_processor - INFO - Whisper识别完成，文本长度: 247
+2025-06-21 15:24:47,850 - app.services.audio_processor - INFO - 开始分析音频质量: C:\Users\admin\AppData\Local\Temp\tmpv4wonn8n.wav
+2025-06-21 15:24:48,711 - app.services.audio_processor - INFO - 音频质量分析完成，评分: 100
+2025-06-21 15:24:48,731 - app.services.audio_processor - INFO - 临时音频文件已清理
+2025-06-21 15:24:48,732 - app.services.audio_processor - INFO - 视频音频处理完成
+2025-06-21 15:24:48,733 - app.utils.report_generator - INFO - JSON结果已保存: outputs/9280714a-5c3c-4959-9103-1606e2c04a51_result.json
+2025-06-21 15:24:48,774 - app.utils.report_generator - INFO - PDF报告已生成: outputs/9280714a-5c3c-4959-9103-1606e2c04a51_report.pdf
+2025-06-21 15:24:48,849 - app.utils.report_generator - INFO - Excel报告已生成: outputs/9280714a-5c3c-4959-9103-1606e2c04a51_report.xlsx
+2025-06-21 15:24:48,853 - app.api.routes - INFO - 分析任务完成: 9280714a-5c3c-4959-9103-1606e2c04a51
+2025-06-21 15:25:01,089 - app.services.image_analyzer - ERROR - OCR调用失败: too many values to unpack (expected 2)
+2025-06-21 15:25:01,091 - app.services.image_analyzer - ERROR - 内容丰富度分析失败: [Errno 2] No such file or directory: 'temp_frames\\frame_0013_65.00s.jpg'
+2025-06-21 15:25:01,091 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 87.5
+2025-06-21 15:25:01,092 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0014_70.00s.jpg
+2025-06-21 15:25:01,092 - app.services.image_analyzer - ERROR - 清晰度分析失败: [Errno 2] No such file or directory: 'temp_frames\\frame_0014_70.00s.jpg'
+2025-06-21 15:25:01,092 - app.services.image_analyzer - ERROR - 光照分析失败: [Errno 2] No such file or directory: 'temp_frames\\frame_0014_70.00s.jpg'
+2025-06-21 15:25:01,093 - app.services.image_analyzer - ERROR - 人脸检测失败: temp_frames\frame_0014_70.00s.jpg does not exist
+2025-06-21 15:25:01,093 - app.services.image_analyzer - ERROR - 图像文件不存在: temp_frames\frame_0014_70.00s.jpg
+2025-06-21 15:25:01,094 - app.services.image_analyzer - ERROR - 内容丰富度分析失败: [Errno 2] No such file or directory: 'temp_frames\\frame_0014_70.00s.jpg'
+2025-06-21 15:25:01,094 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 29.5
+2025-06-21 15:25:01,095 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0015_75.00s.jpg
+2025-06-21 15:25:01,095 - app.services.image_analyzer - ERROR - 清晰度分析失败: [Errno 2] No such file or directory: 'temp_frames\\frame_0015_75.00s.jpg'
+2025-06-21 15:25:01,095 - app.services.image_analyzer - ERROR - 光照分析失败: [Errno 2] No such file or directory: 'temp_frames\\frame_0015_75.00s.jpg'
+2025-06-21 15:25:01,096 - app.services.image_analyzer - ERROR - 人脸检测失败: temp_frames\frame_0015_75.00s.jpg does not exist
+2025-06-21 15:25:01,096 - app.services.image_analyzer - ERROR - 图像文件不存在: temp_frames\frame_0015_75.00s.jpg
+2025-06-21 15:25:01,097 - app.services.image_analyzer - ERROR - 内容丰富度分析失败: [Errno 2] No such file or directory: 'temp_frames\\frame_0015_75.00s.jpg'
+2025-06-21 15:25:01,098 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 29.5
+2025-06-21 15:25:01,098 - app.services.image_analyzer - INFO - 开始分析帧: temp_frames\frame_0016_80.00s.jpg
+2025-06-21 15:25:01,098 - app.services.image_analyzer - ERROR - 清晰度分析失败: [Errno 2] No such file or directory: 'temp_frames\\frame_0016_80.00s.jpg'
+2025-06-21 15:25:01,099 - app.services.image_analyzer - ERROR - 光照分析失败: [Errno 2] No such file or directory: 'temp_frames\\frame_0016_80.00s.jpg'
+2025-06-21 15:25:01,099 - app.services.image_analyzer - ERROR - 人脸检测失败: temp_frames\frame_0016_80.00s.jpg does not exist
+2025-06-21 15:25:01,100 - app.services.image_analyzer - ERROR - 图像文件不存在: temp_frames\frame_0016_80.00s.jpg
+2025-06-21 15:25:01,100 - app.services.image_analyzer - ERROR - 内容丰富度分析失败: [Errno 2] No such file or directory: 'temp_frames\\frame_0016_80.00s.jpg'
+2025-06-21 15:25:01,100 - app.services.image_analyzer - INFO - 帧分析完成: 综合评分 29.5
+2025-06-21 15:25:01,101 - app.services.audio_processor - INFO - 音频处理器使用设备: cpu
+2025-06-21 15:25:01,101 - app.services.video_processor - INFO - 音频处理器初始化成功
+2025-06-21 15:25:01,102 - app.services.audio_processor - INFO - 开始处理视频音频: uploads/295bc680-f4bd-4297-87a7-602a8380ab8d.mp4
+2025-06-21 15:25:01,102 - app.services.audio_processor - INFO - 开始从视频提取音频: uploads/295bc680-f4bd-4297-87a7-602a8380ab8d.mp4
+2025-06-21 15:25:03,419 - app.services.audio_processor - INFO - 音频提取完成: C:\Users\admin\AppData\Local\Temp\tmprpe66hw3.wav
+2025-06-21 15:25:03,424 - app.services.audio_processor - INFO - 开始Whisper语音识别: C:\Users\admin\AppData\Local\Temp\tmprpe66hw3.wav
+2025-06-21 15:25:04,264 - app.services.audio_processor - INFO - Whisper模型加载完成
+2025-06-21 15:25:04,266 - py.warnings - WARNING - C:\ai\质量\venv\Lib\site-packages\whisper\transcribe.py:126: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+
+2025-06-21 15:25:25,866 - app.services.audio_processor - INFO - Whisper识别完成，文本长度: 247
+2025-06-21 15:25:25,868 - app.services.audio_processor - INFO - 开始分析音频质量: C:\Users\admin\AppData\Local\Temp\tmprpe66hw3.wav
+2025-06-21 15:25:27,241 - app.services.audio_processor - INFO - 音频质量分析完成，评分: 100
+2025-06-21 15:25:27,285 - app.services.audio_processor - INFO - 临时音频文件已清理
+2025-06-21 15:25:27,286 - app.services.audio_processor - INFO - 视频音频处理完成
+2025-06-21 15:25:27,288 - app.utils.report_generator - INFO - JSON结果已保存: outputs/433e56fd-7370-43d0-80da-301120b42e4f_result.json
+2025-06-21 15:25:27,376 - app.utils.report_generator - INFO - PDF报告已生成: outputs/433e56fd-7370-43d0-80da-301120b42e4f_report.pdf
+2025-06-21 15:25:27,453 - app.utils.report_generator - INFO - Excel报告已生成: outputs/433e56fd-7370-43d0-80da-301120b42e4f_report.xlsx
+2025-06-21 15:25:27,454 - app.api.routes - INFO - 分析任务完成: 433e56fd-7370-43d0-80da-301120b42e4f
